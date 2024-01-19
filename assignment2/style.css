@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* costum style */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+
+/* color code */
+/* rgb(33 41 70) */
+/* rgb(33 41 70) */
+/* rgb(242 248 253) */
+/* rgb(255 123 41) */
+/* rgb(242 248 253) */
+/* rgb(242 248 253) */
+/* rgb(189 192 210) */
+
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* header */
+
+.header{
+    background-color: rgb(33 41 70);
+    padding: 16px 0;
+}
+
+.brand img{
+    width: 140px;
+}
+
+.upper-btn{
+   display: flex;
+}
+
+.btn{
+    margin-right: 32px;
+}
+
+.name{
+    color: rgb(235 235 237);
+    margin-right: 16px;
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main */
+
+aside{
+    background-color: rgb(163 202 234);
+    border-radius: 6px;
+    margin: 32px;
+    flex: 0 1 30%;
+    align-self: stretch;
+}
+
+.aside-btn{
+    text-decoration: none;
+    
+}
+span{
+    color: rgb(33 41 70);
+    font-size: 28px;
+    
+}
+
+.aside-icon{
+   padding: 16px;
+   margin: 16px;
+}
+
+.aside-icon img{
+    margin-right: 12px;
+}
+
+.article-btn{
+    border: 3px solid rgb(234, 125, 58);
+    border-radius: 8px; 
+}
+
+.orange-btn{
+    color: rgb(234, 125, 58);
+}
+
+.logout{
+    margin-top: 96px;
+    padding: 16px;
+    margin: 16px;
+    
+}
+
+.logout-btn{
+    border-radius: 8px;
+    background-color: hsl(207.27deg 73.33% 97.06%);
+    margin-top: 220px;
+}
+.logout-btn img{
+    margin-right: 10px;
+}
+
+/* Article  */
+
+.article{
+    background-color: hsl(207.27deg 73.33% 97.06%);
+    border-radius: 6px;
+    margin: 32px;
+    padding: 32px;
+   flex: 0 1 65%;
+   align-self: stretch;
+}
+
+.main-img{
+    width: 90%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(55 182 103);
+    border: none;
+    border-radius: 5px;
+    width: 26%;
+    height: 50px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgb(55 182 103);
+}
+
+.button-txt{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(33 41 70);
+    width: 100%;
+    height: 80px;
+    padding: 32px 0;
+}
+
+.social-img{
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-div{
+    padding: 16px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: #bdc0d2;
+}
+
+.social-btn{
+    margin-right: 100px;
+}
